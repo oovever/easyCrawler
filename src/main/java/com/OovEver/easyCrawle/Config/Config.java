@@ -1,4 +1,4 @@
-package com.OovEver.Config;
+package com.OovEver.easyCrawle.Config;
 import lombok.extern.slf4j.Slf4j;
 /**
  * 爬虫配置类

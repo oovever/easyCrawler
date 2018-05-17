@@ -1,4 +1,4 @@
-package com.OovEver.Config;
+package com.OovEver.easyCrawle.Config;
 
 /**
  * 常见UA配置
