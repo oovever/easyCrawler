@@ -70,7 +70,7 @@ public class Config implements Cloneable {
         try {
             return (Config) super.clone();
         } catch (CloneNotSupportedException e) {
-            log.info("克隆失败 [{}]", e);
+            log.error("克隆失败 [{}]", e);
             e.printStackTrace();
         }
         return null;
