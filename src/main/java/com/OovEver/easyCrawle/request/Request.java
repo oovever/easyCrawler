@@ -1,6 +1,7 @@
 package com.OovEver.easyCrawle.request;
 
 import com.OovEver.easyCrawle.Spider.Spider;
+import lombok.Getter;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,6 +10,7 @@ import java.util.Map;
  * @author OovEver
  * 2018/5/17 21:00
  */
+@Getter
 public class Request<T> {
     private Spider spider;
     private String url;

@@ -2,10 +2,16 @@ package com.OovEver.easyCrawle;
 
 import com.OovEver.easyCrawle.Config.Config;
 import com.OovEver.easyCrawle.Spider.Spider;
+import com.OovEver.easyCrawle.download.Downloader;
 import com.OovEver.easyCrawle.event.ElvesEvent;
 import com.OovEver.easyCrawle.event.EventManager;
+import com.OovEver.easyCrawle.pipeline.Pipeline;
+import com.OovEver.easyCrawle.request.Parser;
 import com.OovEver.easyCrawle.request.Request;
+import com.OovEver.easyCrawle.response.Response;
+import com.OovEver.easyCrawle.response.Result;
 import com.OovEver.easyCrawle.scheduler.Scheduler;
+import com.OovEver.easyCrawle.utils.ElvesUtils;
 import com.OovEver.easyCrawle.utils.NamedThreadFactory;
 import lombok.extern.slf4j.Slf4j;
 
@@ -35,7 +41,7 @@ public class ElvesEngine {
         this.spiders = elves.spiders;
         this.config = elves.config;
 //        新建线程池
-        this.executorService = new ThreadPoolExecutor(config.getParallelThreads(), config.getParallelThreads() + 5, 100, TimeUnit.MILLISECONDS, config.getQueueSize() == 0 ? new SynchronousQueue<>() : (config.getQueueSize() < 0 ? new LinkedBlockingQueue<>() : new LinkedBlockingQueue<>(config.getQueueSize())), new NamedThreadFactory("task"));
+        executorService = new ThreadPoolExecutor(config.getParallelThreads(), config.getParallelThreads() + 5, 100, TimeUnit.MILLISECONDS, config.getQueueSize() == 0 ? new SynchronousQueue<>() : (config.getQueueSize() < 0 ? new LinkedBlockingQueue<>() : new LinkedBlockingQueue<>(config.getQueueSize())), new NamedThreadFactory("task"));
     }
     /**
      * 启动爬虫
@@ -60,5 +66,55 @@ public class ElvesEngine {
 //        执行事件
             EventManager.fireEvent(ElvesEvent.SPIDER_STARTED, conf);
         });
+        // 后台生产
+        Thread downloadThread=new Thread(()->{
+            while (isRunning) {
+                if (!scheduler.hasRequest()) {
+                    ElvesUtils.sleep(100);
+                    continue;
+                }
+                Request request = scheduler.nextRequest();
+                executorService.submit(new Downloader(scheduler, request));
+                ElvesUtils.sleep(request.getSpider().getConfig().getDelay());
+            }
+        });
+        downloadThread.setDaemon(true);
+        downloadThread.setName("download-thread");
+        downloadThread.start();
+        // 消费
+        this.complete();
+    }
+
+    /**
+     * 消费线程
+     */
+    private void complete() {
+        while (isRunning) {
+            if (!scheduler.hasResponse()) {
+                ElvesUtils.sleep(100);
+                continue;
+            }
+            Response response = scheduler.nextResponse();
+            Parser   parser   = response.getRequest().getParser();
+            if (null != parser) {
+                Result<?> result = parser.parse(response);
+                List<Request> requests = result.getRequests();
+                if (!ElvesUtils.isEmpty(requests)) {
+                    requests.forEach(scheduler::addRequest);
+                }
+                if (null != result.getItem()) {
+                    List<Pipeline> pipelines = response.getRequest().getSpider().getPipelines();
+                    pipelines.forEach(pipeline -> pipeline.process(result.getItem(), response.getRequest()));
+                }
+            }
+        }
+    }
+    /**
+     * 停止爬虫
+     */
+    public void stop(){
+        isRunning = false;
+        scheduler.clearRequests();
+        log.info("爬虫已经停止.");
     }
 }
