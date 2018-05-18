@@ -1,5 +1,7 @@
 package com.OovEver.easyCrawle.request;
 
+import com.OovEver.easyCrawle.Spider.Spider;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,13 +10,27 @@ import java.util.Map;
  * 2018/5/17 21:00
  */
 public class Request<T> {
-//    默认字符集
+    private Spider spider;
+    private String url;
+    private String              method  = "GET";
+    private Map<String, String> headers = new HashMap<>();
+    private Map<String, String> cookies = new HashMap<>();
+    private String contentType = "text/html; charset=UTF-8";
     private String charset = "UTF-8";
+    private Parser<T> parser;
     public String charset() {
         return charset;
     }
-    public Request charset(String charset) {
+    public void charset(String charset) {
         this.charset = charset;
-        return this;
+    }
+    public Request(Spider spider, String url, Parser<T> parser) {
+        this.spider = spider;
+        this.url = url;
+        this.parser = parser;
+        this.header("User-Agent", spider.getConfig().getUserAgent());
+    }
+    public void header(String key, String value) {
+        this.headers.put(key, value);
     }
 }

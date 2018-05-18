@@ -2,10 +2,7 @@ package com.OovEver.easyCrawle.event;
 
 import com.OovEver.easyCrawle.Config.Config;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Consumer;
 
 /**
@@ -30,5 +27,14 @@ public class EventManager {
         }
         consumers.add(consumer);
         elvesEventConsumerMap.put(elvesEvent, consumers);
+    }
+
+    /**
+     * 执行事件
+     * @param elvesEvent 要执行的事件
+     * @param config 配置名称
+     */
+    public static void fireEvent(ElvesEvent elvesEvent, Config config) {
+        Optional.ofNullable(elvesEventConsumerMap.get(elvesEvent)).ifPresent(consumers -> consumers.forEach(consumer -> consumer.accept(config)));
     }
 }

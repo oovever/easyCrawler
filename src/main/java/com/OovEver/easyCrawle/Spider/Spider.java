@@ -1,5 +1,13 @@
 package com.OovEver.easyCrawle.Spider;
 
+import com.OovEver.easyCrawle.Config.Config;
+import com.OovEver.easyCrawle.event.ElvesEvent;
+import com.OovEver.easyCrawle.event.EventManager;
+import com.OovEver.easyCrawle.pipeline.Pipeline;
+import com.OovEver.easyCrawle.request.Parser;
+import com.OovEver.easyCrawle.request.Request;
+import com.OovEver.easyCrawle.response.Response;
+import com.OovEver.easyCrawle.response.Result;
 import lombok.Data;
 import sun.security.provider.ConfigFile;
 
@@ -15,10 +23,17 @@ import java.util.List;
 public abstract class Spider {
 //    爬虫事件名称
     private String name;
+//    配置信息
+    private Config config;
+//    Pipeline处理
+    private List<Pipeline> pipelines = new ArrayList<>();
+//    请求处理
+    private List<Request>  requests  = new ArrayList<>();
 //    爬虫链接
-    private List<String> startUrls = new ArrayList<>();
+    private List<String>     startUrls = new ArrayList<>();
     public Spider(String name) {
         this.name = name;
+        EventManager.registerEvent(ElvesEvent.SPIDER_STARTED,this::onStart);
     }
 
     /**
@@ -28,4 +43,40 @@ public abstract class Spider {
     public void startUrls(String... urls) {
         this.startUrls.addAll(Arrays.asList(urls));
     }
+    /**
+     * 爬虫启动前执行
+     * @param config 配置信息
+     */
+    public void onStart(Config config) {
+    }
+
+    /**
+     * 添加pipeline功能
+     * @param pipeline
+     * @param <T> Pipeline类型
+     */
+    public <T> void addPipeline(Pipeline<T> pipeline) {
+        this.pipelines.add(pipeline);
+    }
+    /**
+     * 构建一个Request
+     * @param url 请求的url
+     * @return 返回请求
+     */
+    public <T> Request<T> makeRequest(String url) {
+        return makeRequest(url, this::parse);
+    }
+    /**
+     * 构建一个Request
+     * @param url 请求的url
+     * @param parser 解析器
+     * @return 返回请求
+     */
+    public <T> Request<T> makeRequest(String url, Parser<T> parser) {
+        return new Request(this, url, parser);
+    }
+    /**
+     * 解析 DOM
+     */
+    public abstract <T> Result<T> parse(Response response);
 }
