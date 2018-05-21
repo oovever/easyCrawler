@@ -39,6 +39,7 @@ public class Body {
 //            每一行的容量
             StringBuilder html = new StringBuilder(100);
             try {
+//                按指定编码读入缓冲区
                 BufferedReader br = new BufferedReader(new InputStreamReader(inputStream, charset));
                 String         temp;
                 while ((temp = br.readLine()) != null) {

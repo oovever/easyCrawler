@@ -4,7 +4,7 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.LongAdder;
 
 /**
- * 线程名称工厂
+ * 线程名称工厂 用来创建线程
  * @author OovEver
  * 2018/5/18 0:22
  */

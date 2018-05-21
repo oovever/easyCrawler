@@ -74,12 +74,14 @@ public class ElvesEngine {
                     continue;
                 }
                 Request request = scheduler.nextRequest();
+//                线程池中添加Downloader线程
                 executorService.submit(new Downloader(scheduler, request));
                 ElvesUtils.sleep(request.getSpider().getConfig().getDelay());
             }
         });
+//        JVM结束 守护线程结束
         downloadThread.setDaemon(true);
-        downloadThread.setName("download-thread");
+//        downloadThread.setName("download-thread");
         downloadThread.start();
         // 消费
         this.complete();
