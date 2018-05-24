@@ -39,8 +39,9 @@ public class Config implements Cloneable {
         return delay;
     }
 
-    public void setDelay(int delay) {
+    public Config setDelay(int delay) {
         this.delay = delay;
+        return this;
     }
 
     public int getParallelThreads() {
