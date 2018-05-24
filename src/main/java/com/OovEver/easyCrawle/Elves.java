@@ -38,7 +38,13 @@ public class Elves {
         new ElvesEngine(this).start();
     }
 
-    public void onStart(Consumer<Config> consumer) {
+    /**
+     *  爬虫启动前要做的操作
+     * @param consumer
+     * @return
+     */
+    public Elves onStart(Consumer<Config> consumer) {
         EventManager.registerEvent(ElvesEvent.GLOBAL_STARTED, consumer);
+        return this;
     }
 }
