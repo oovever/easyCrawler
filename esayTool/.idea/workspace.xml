@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ade363a5-b5e4-49fc-b61b-76ec8ea413d2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/UploadFileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
+    <fileColor scope="Non-Project Files (Material Darker)" color="323232" />
+    <fileColor scope="Non-Project Files (Material Lighter)" color="eae8e8" />
+    <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HttpException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/exception/HttpException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/util/HttpUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="132" column="25" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2990#2991#0" expanded="true" />
+                <element signature="e#3064#3065#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RequestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/RequestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaiduSearchTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/BaiduSearchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="60" column="4" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="60" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/exception/JSONException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasicParameterRequest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/BasicParameterRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1056">
+              <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadFileTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/UploadFileTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="99">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>currentBuffer</find>
+      <find>offset</find>
+      <find>size</find>
+      <find>notnu</find>
+      <find>getAbsolutePath</find>
+      <find>pathEquals</find>
+      <find>writeLines</find>
+      <find>write</find>
+      <find>覆盖</find>
+      <find>run</find>
+      <find>exce</find>
+      <find>type</find>
+      <find>typeDescriptorCache</find>
+      <find>FutureRequestExecutionMetrics</find>
+      <find>context</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/esayTool/io/LineHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/esayTool/util/ArrayUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/esayTool/util/URLUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/io/FileUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/esayTool/io/resource/ResourceUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/esayTool/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/esayTool/io/IoUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/esayTool/io/FileTypeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/esayTool/io/file/FileWrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/esayTool/io/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/esayTool/io/file/LineSeparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/esayTool/util/CharsetUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/esayTool/io/file/FileWriter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/io/file/FileWriterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/io/file/FileReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/esayTool/io/file/FileReader.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/IoUtil/testIn.txt" />
+        <option value="$PROJECT_DIR$/src/main/resources/IoUtil/testNioIn.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/io/IoUtilTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/Status.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/Header.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/Method.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/util/CharsetUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/exception.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/exception/exception.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/exception/JSONException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/exception/HttpException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/Param.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/MyResponseHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/BaiduBaikeMultThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/util/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/util/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/util/RequestUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/util/HttpParamUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/response/ResponseWrap.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/BasicParameterRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/FormPart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/RequestFuture.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/RequestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/BasicUriRequest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/CheckDomainResult.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/Result.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/Accurate.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/BaiduCloudMultThread.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/BaiduSearchTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/UploadFileTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/io/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\apache-maven-3.3.9-bin\LocalWarehouses" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1432" />
+    <option name="y" value="-112" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpringJavaAutowiringInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Oovever" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Oovever" type="462c0819:PsiDirectoryNode" />
+              <item name="easyHttp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Oovever" type="462c0819:PsiDirectoryNode" />
+              <item name="easyHttp" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Oovever" type="462c0819:PsiDirectoryNode" />
+              <item name="easyHttp" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Oovever" type="462c0819:PsiDirectoryNode" />
+              <item name="easyHttp" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Oovever" type="462c0819:PsiDirectoryNode" />
+              <item name="easyHttp" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="IoUtil" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Oovever" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Oovever" type="462c0819:PsiDirectoryNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Oovever" type="462c0819:PsiDirectoryNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="easyHttp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="esayTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="Oovever" type="462c0819:PsiDirectoryNode" />
+              <item name="esayTool" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="D:/Program Files/nodejs/node" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.Oovever.esayTool.io" />
+      <recent name="com.Oovever.esayTool.io.file" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Oovever.esayTool.easyHttp" />
+      <recent name="com.Oovever.easyHttp.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git库\esayTool\src\main\resources\IoUtil" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Oovever.esayTool.io.Solution" />
+      <module name="esayTool" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Oovever.esayTool.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Oovever.esayTool.easyHttp.test" />
+      <module name="esayTool" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Oovever.esayTool.easyHttp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BaiduSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esayTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Oovever.esayTool.easyHttp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.Oovever.esayTool.easyHttp" />
+      <option name="MAIN_CLASS_NAME" value="com.Oovever.esayTool.easyHttp.BaiduSearchTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BaiduSearchTest.baiduIndexTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esayTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Oovever.esayTool.easyHttp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.Oovever.esayTool.easyHttp" />
+      <option name="MAIN_CLASS_NAME" value="com.Oovever.esayTool.easyHttp.BaiduSearchTest" />
+      <option name="METHOD_NAME" value="baiduIndexTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="BaiduSearchTest.baiduSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="esayTool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Oovever.esayTool.easyHttp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.Oovever.esayTool.easyHttp" />
+      <option name="MAIN_CLASS_NAME" value="com.Oovever.esayTool.easyHttp.BaiduSearchTest" />
+      <option name="METHOD_NAME" value="baiduSearchTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.BaiduSearchTest.baiduSearchTest" />
+      <item itemvalue="JUnit.BaiduSearchTest.baiduIndexTest" />
+      <item itemvalue="JUnit.BaiduSearchTest" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="JUnit.BaiduSearchTest" />
+        <item itemvalue="JUnit.BaiduSearchTest.baiduIndexTest" />
+        <item itemvalue="JUnit.BaiduSearchTest.baiduSearchTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ade363a5-b5e4-49fc-b61b-76ec8ea413d2" name="Default" comment="" />
+      <created>1527733203476</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527733203476</updated>
+      <workItem from="1527733205504" duration="41550000" />
+      <workItem from="1528456301427" duration="6876000" />
+      <workItem from="1528471693679" duration="8340000" />
+      <workItem from="1528706758987" duration="198000" />
+      <workItem from="1528707191918" duration="3986000" />
+      <workItem from="1528815009372" duration="5068000" />
+      <workItem from="1529569314196" duration="1253000" />
+      <workItem from="1529842072474" duration="1818000" />
+      <workItem from="1530454727842" duration="2024000" />
+      <workItem from="1530458691158" duration="18498000" />
+      <workItem from="1530628172176" duration="6242000" />
+      <workItem from="1531814713909" duration="6379000" />
+      <workItem from="1531841105000" duration="14342000" />
+      <workItem from="1532858817165" duration="1674000" />
+    </task>
+    <task id="LOCAL-00001" summary="完成部分IO操作">
+      <created>1528132613732</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528132613732</updated>
+    </task>
+    <task id="LOCAL-00002" summary="基于快速缓冲FastByteBuffer的OutputStream，随着数据的增长自动扩充缓冲区">
+      <created>1528376198330</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528376198330</updated>
+    </task>
+    <task id="LOCAL-00003" summary="从FileChannel中读取内容">
+      <created>1528392508560</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528392508560</updated>
+    </task>
+    <task id="LOCAL-00004" summary="从流中读取内容">
+      <created>1528428776797</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1528428776797</updated>
+    </task>
+    <task id="LOCAL-00005" summary="按行读取数据，将多部分内容写入到流中">
+      <created>1528437671237</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528437671237</updated>
+    </task>
+    <task id="LOCAL-00006" summary="文件操作部分工具">
+      <created>1528448751734</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1528448751734</updated>
+    </task>
+    <task id="LOCAL-00007" summary="文件操作部分工具添加">
+      <created>1528468472352</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528468472353</updated>
+    </task>
+    <task id="LOCAL-00008" summary="文件操作部分工具添加">
+      <created>1528557955462</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1528557955462</updated>
+    </task>
+    <task id="LOCAL-00009" summary="文件操作部分工具添加">
+      <created>1528562198145</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1528562198145</updated>
+    </task>
+    <task id="LOCAL-00010" summary="FileWriter FileReader完成">
+      <created>1528620625651</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1528620625651</updated>
+    </task>
+    <task id="LOCAL-00011" summary="FileWriter FileReader测试 IOUtil部分测试">
+      <created>1528716252358</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1528716252358</updated>
+    </task>
+    <task id="LOCAL-00012" summary="httpTool created">
+      <created>1528716775803</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1528716775803</updated>
+    </task>
+    <task id="LOCAL-00013" summary="更新http状态码">
+      <created>1528815059075</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1528815059075</updated>
+    </task>
+    <task id="LOCAL-00014" summary="更新注释">
+      <created>1528985505439</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1528985505439</updated>
+    </task>
+    <task id="LOCAL-00015" summary="更新httpUtil">
+      <created>1530457349186</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1530457349186</updated>
+    </task>
+    <task id="LOCAL-00016" summary="完成JSON工具类">
+      <created>1530461132473</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1530461132473</updated>
+    </task>
+    <task id="LOCAL-00017" summary="更新Http工具类 添加Request工具类">
+      <created>1530466758838</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1530466758838</updated>
+    </task>
+    <task id="LOCAL-00018" summary="更新Request工具类">
+      <created>1530523307441</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1530523307441</updated>
+    </task>
+    <task id="LOCAL-00019" summary="更新Request工具类">
+      <created>1530549953716</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1530549953716</updated>
+    </task>
+    <task id="LOCAL-00020" summary="构建Http请求抽象类">
+      <created>1530550458655</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1530550458655</updated>
+    </task>
+    <task id="LOCAL-00021" summary="RequestBase抽象类完成">
+      <created>1530606114163</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1530606114163</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Form实体类">
+      <created>1530618783619</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1530618783619</updated>
+    </task>
+    <task id="LOCAL-00023" summary="添加Param&#10;添加Param工具类&#10;添加Object对象转化为请求参数">
+      <created>1530628792081</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1530628792081</updated>
+    </task>
+    <task id="LOCAL-00024" summary=" Http工具类&#10; 提供get, post, put, delete请求">
+      <created>1530634801662</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1530634801662</updated>
+    </task>
+    <task id="LOCAL-00025" summary="完成相应结果包装">
+      <created>1530671636635</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1530671636635</updated>
+    </task>
+    <task id="LOCAL-00026" summary="HttpRequestFutureTask包装器,带有FutureRequestExecutionMetrics&#10;这是一个异步的执行结果, 你可以取消任务&#10;并且带有跟踪指标,可以查看这任务的开始、结束时间，任务执行时长，请求数量">
+      <created>1530686636796</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1530686636796</updated>
+    </task>
+    <task id="LOCAL-00027" summary="添加测试类 更新注释">
+      <created>1531824823452</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1531824823452</updated>
+    </task>
+    <task id="LOCAL-00028" summary="更新注释">
+      <created>1531844439859</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1531844439859</updated>
+    </task>
+    <task id="LOCAL-00029" summary="修复bug">
+      <created>1531921052638</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1531921052638</updated>
+    </task>
+    <task id="LOCAL-00030" summary="测试文件的添加">
+      <created>1531923005962</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1531923005962</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BaiduCloudMultThread_requestCloudDomain - 2018.07.18 at 21h 57m 10s.xml">
+      <configuration name="BaiduCloudMultThread.requestCloudDomain" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaiduSearchTest_baiduSearchTest - 2018.07.18 at 21h 58m 13s.xml">
+      <configuration name="BaiduSearchTest.baiduSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaiduSearchTest_baiduIndexTest - 2018.07.18 at 21h 58m 43s.xml">
+      <configuration name="BaiduSearchTest.baiduIndexTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaiduSearchTest_baiduIndexTest - 2018.07.18 at 22h 00m 12s.xml">
+      <configuration name="BaiduSearchTest.baiduIndexTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaiduSearchTest_baiduSearchTest - 2018.07.18 at 22h 00m 39s.xml">
+      <configuration name="BaiduSearchTest.baiduSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaiduSearchTest_baiduSearchWriteFileTest - 2018.07.18 at 22h 00m 49s.xml">
+      <configuration name="BaiduSearchTest.baiduSearchWriteFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaiduSearchTest_baiduSearchWriteFileTest - 2018.07.18 at 22h 00m 54s.xml">
+      <configuration name="BaiduSearchTest.baiduSearchWriteFileTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaiduSearchTest_baiduSearchTest - 2018.07.18 at 22h 01m 04s.xml">
+      <configuration name="BaiduSearchTest.baiduSearchTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaiduSearchTest_baiduIndexTest - 2018.07.18 at 22h 01m 14s.xml">
+      <configuration name="BaiduSearchTest.baiduIndexTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaiduSearchTest - 2018.07.18 at 22h 09m 22s.xml">
+      <configuration name="BaiduSearchTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="118248000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1432" y="-112" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32882273" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32882273" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3283582" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22228146" />
+      <window_info anchor="bottom" id="Statistic" order="8" weight="0.28222525" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.26499456" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36770692" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Module Dependencies" order="0" weight="0.3295129" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="基于快速缓冲FastByteBuffer的OutputStream，随着数据的增长自动扩充缓冲区" />
+    <MESSAGE value="从FileChannel中读取内容" />
+    <MESSAGE value="从流中读取内容" />
+    <MESSAGE value="按行读取数据，将多部分内容写入到流中" />
+    <MESSAGE value="文件操作部分工具" />
+    <MESSAGE value="文件操作部分工具添加" />
+    <MESSAGE value="FileWriter FileReader完成" />
+    <MESSAGE value="FileWriter FileReader测试 IOUtil部分测试" />
+    <MESSAGE value="httpTool created" />
+    <MESSAGE value="更新http状态码" />
+    <MESSAGE value="更新httpUtil" />
+    <MESSAGE value="完成JSON工具类" />
+    <MESSAGE value="更新Http工具类 添加Request工具类" />
+    <MESSAGE value="更新Request工具类" />
+    <MESSAGE value="构建Http请求抽象类" />
+    <MESSAGE value="RequestBase抽象类完成" />
+    <MESSAGE value="Form实体类" />
+    <MESSAGE value="添加Param&#10;添加Param工具类&#10;添加Object对象转化为请求参数" />
+    <MESSAGE value=" Http工具类&#10; 提供get, post, put, delete请求" />
+    <MESSAGE value="完成相应结果包装" />
+    <MESSAGE value="HttpRequestFutureTask包装器,带有FutureRequestExecutionMetrics&#10;这是一个异步的执行结果, 你可以取消任务&#10;并且带有跟踪指标,可以查看这任务的开始、结束时间，任务执行时长，请求数量" />
+    <MESSAGE value="添加测试类 更新注释" />
+    <MESSAGE value="更新注释" />
+    <MESSAGE value="修复bug" />
+    <MESSAGE value="测试文件的添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试文件的添加" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/io/FileUtilTest.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/client/methods/HttpEntityEnclosingRequestBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/message/BasicNameValuePair.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3937">
+          <caret line="219" column="36" selection-start-line="219" selection-start-column="36" selection-end-line="219" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Locale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="483" column="25" selection-start-line="483" selection-start-column="19" selection-end-line="483" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/beans/BeanInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/beans/Introspector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="160" column="27" selection-start-line="160" selection-start-column="27" selection-end-line="160" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="251" column="25" selection-start-line="251" selection-start-column="25" selection-end-line="251" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/Param.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="918" column="27" selection-start-line="918" selection-start-column="27" selection-end-line="918" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/reflect/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="140" column="32" selection-start-line="140" selection-start-column="32" selection-end-line="140" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/lang/reflect/Modifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/util/HttpParamUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3785">
+          <caret line="274" column="23" lean-forward="true" selection-start-line="274" selection-start-column="23" selection-end-line="274" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#511#518#0" expanded="true" />
+            <element signature="e#5965#5966#0" expanded="true" />
+            <element signature="e#5994#5995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/util/EntityUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/client/utils/URIUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="270" column="22" selection-start-line="270" selection-start-column="22" selection-end-line="270" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/client/protocol/HttpClientContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/HttpEntity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/response/ResponseWrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650">
+          <caret line="396" column="19" selection-start-line="396" selection-start-column="19" selection-end-line="396" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4402#4403#0" expanded="true" />
+            <element signature="e#4459#4460#0" expanded="true" />
+            <element signature="e#5870#5871#0" expanded="true" />
+            <element signature="e#5913#5914#0" expanded="true" />
+            <element signature="e#6010#6011#0" expanded="true" />
+            <element signature="e#6057#6058#0" expanded="true" />
+            <element signature="e#6167#6168#0" expanded="true" />
+            <element signature="e#6215#6216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/util/RequestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="168" column="49" selection-start-line="168" selection-start-column="49" selection-end-line="168" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2460#2492#0" expanded="true" />
+            <element signature="e#6712#6727#0" expanded="true" />
+            <element signature="e#11329#11344#0" expanded="true" />
+            <element signature="e#11422#11437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar!/org/apache/http/entity/ContentType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3-sources.jar!/org/apache/http/entity/mime/HttpMultipartMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3-sources.jar!/org/apache/http/entity/mime/MultipartEntityBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="92" column="66" lean-forward="true" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3-sources.jar!/org/apache/http/entity/mime/content/ByteArrayBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="50" column="50" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpmime/4.5.3/httpmime-4.5.3-sources.jar!/org/apache/http/entity/mime/content/FileBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="94" column="11" selection-start-line="94" selection-start-column="11" selection-end-line="94" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/FormPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1211">
+          <caret line="189" column="45" selection-start-line="189" selection-start-column="45" selection-end-line="189" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/concurrent/FutureTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="115" column="14" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/impl/client/HttpClientBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="94" column="13" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/client/ResponseHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/client/methods/HttpGet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/impl/client/HttpRequestFutureTask.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/MyResponseHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/RequestFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="57" column="36" lean-forward="true" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1469#1470#0" expanded="true" />
+            <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1617#1618#0" expanded="true" />
+            <element signature="e#1658#1659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.3.9-bin/LocalWarehouses/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar!/org/apache/http/impl/client/FutureRequestExecutionMetrics.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/BaiduBaikeMultThreadTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/CheckDomainResult.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/Result.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/Accurate.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/BaiduCloudMultThread.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/BasicUriRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/util/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/io/Solution.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/exception/JSONException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/BasicParameterRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/UploadFileTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/exception/HttpException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/util/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="132" column="25" selection-start-line="132" selection-start-column="25" selection-end-line="132" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2990#2991#0" expanded="true" />
+            <element signature="e#3064#3065#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Oovever/easyHttp/request/RequestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Oovever/esayTool/easyHttp/BaiduSearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="60" column="4" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="60" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

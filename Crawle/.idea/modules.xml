@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Crawle/Crawle.iml" filepath="$PROJECT_DIR$/Crawle/Crawle.iml" />
       <module fileurl="file://$PROJECT_DIR$/easyCrawle.iml" filepath="$PROJECT_DIR$/easyCrawle.iml" />
-      <module fileurl="file://$PROJECT_DIR$/esayTool/esayTool.iml" filepath="$PROJECT_DIR$/esayTool/esayTool.iml" />
     </modules>
   </component>
 </project>
