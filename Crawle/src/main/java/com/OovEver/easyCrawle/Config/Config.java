@@ -16,7 +16,7 @@ public class Config implements Cloneable {
     private int parallelThreads = Runtime.getRuntime().availableProcessors() * 2;
 //    UA配置
     private String userAgent = UserAgent.CHROME_FOR_MAC;
-//   容量大小
+//   线程池容量大小
     private int queueSize;
 
     /**

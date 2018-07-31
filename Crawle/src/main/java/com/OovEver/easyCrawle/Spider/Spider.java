@@ -16,6 +16,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * 处理Response的数据
  * @author OovEver
  * 2018/5/17 23:48
  */
@@ -33,6 +34,7 @@ protected List<Request>  requests  = new ArrayList<>();
 protected List<String>     startUrls = new ArrayList<>();
     public Spider(String name) {
         this.name = name;
+//        爬虫事件注册
         EventManager.registerEvent(ElvesEvent.SPIDER_STARTED,this::onStart);
     }
 

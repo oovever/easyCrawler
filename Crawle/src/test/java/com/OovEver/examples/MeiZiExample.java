@@ -2,7 +2,7 @@ package com.OovEver.examples;
 
 import com.OovEver.easyCrawle.Config.Config;
 import com.OovEver.easyCrawle.Config.UserAgent;
-import com.OovEver.easyCrawle.Elves;
+import com.OovEver.easyCrawle.Engine.Elves;
 import com.OovEver.easyCrawle.Spider.Spider;
 import com.OovEver.easyCrawle.pipeline.Pipeline;
 import com.OovEver.easyCrawle.request.Parser;

@@ -1,6 +1,7 @@
-package com.OovEver.easyCrawle;
+package com.OovEver.easyCrawle.Engine;
 
 import com.OovEver.easyCrawle.Config.Config;
+import com.OovEver.easyCrawle.Engine.Elves;
 import com.OovEver.easyCrawle.Spider.Spider;
 import com.OovEver.easyCrawle.download.Downloader;
 import com.OovEver.easyCrawle.event.ElvesEvent;
@@ -41,6 +42,7 @@ public class ElvesEngine {
         this.spiders = elves.spiders;
         this.config = elves.config;
 //        新建线程池
+//
         executorService = new ThreadPoolExecutor(config.getParallelThreads(), config.getParallelThreads() + 5, 100, TimeUnit.MILLISECONDS, config.getQueueSize() == 0 ? new SynchronousQueue<>() : (config.getQueueSize() < 0 ? new LinkedBlockingQueue<>() : new LinkedBlockingQueue<>(config.getQueueSize())), new NamedThreadFactory("task"));
     }
     /**
@@ -58,12 +60,12 @@ public class ElvesEngine {
             log.info("Spider [{}] 启动...", spider.getName());
             log.info("Spider [{}] 配置 [{}]", spider.getName(), conf);
             spider.setConfig(conf);
-//            返回请求
+//            为每个Spider返回请求
             List<Request> requests = spider.getStartUrls().stream()
                     .map(spider::makeRequest).collect(Collectors.toList());
             spider.getRequests().addAll(requests);
             scheduler.addRequests(requests);
-//        执行事件
+//        执行爬虫
             EventManager.fireEvent(ElvesEvent.SPIDER_STARTED, conf);
         });
         // 后台生产

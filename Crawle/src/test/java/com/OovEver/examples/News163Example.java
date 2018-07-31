@@ -1,7 +1,7 @@
 package com.OovEver.examples;
 
 import com.OovEver.easyCrawle.Config.Config;
-import com.OovEver.easyCrawle.Elves;
+import com.OovEver.easyCrawle.Engine.Elves;
 import com.OovEver.easyCrawle.Spider.Spider;
 import com.OovEver.easyCrawle.pipeline.Pipeline;
 import com.OovEver.easyCrawle.response.Response;
@@ -28,7 +28,7 @@ public class News163Example{
 //            }
             super(name);
             this.startUrls(
-                    "http://news.163.com/special/0001386F/rank_news.html",
+                    "http://news.163.com/special/0001386F/rank_news.html",//新闻
                     "http://news.163.com/special/0001386F/rank_ent.html", // 娱乐
                     "http://news.163.com/special/0001386F/rank_sports.html", // 体育
                     "http://news.163.com/special/0001386F/rank_tech.html", // 科技
