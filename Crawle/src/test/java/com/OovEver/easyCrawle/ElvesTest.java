@@ -13,7 +13,7 @@ import com.OovEver.easyCrawle.response.Result;
 public class ElvesTest {
 
     public static void main(String[] args) {
-        Elves.Elves(new Spider("测试爬虫") {
+        Elves.Elves(new Spider("测试爬虫Global") {
             @Override
             public  Result<String> parse(Response response) {
                 return new Result<>(response.body().toString());

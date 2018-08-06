@@ -4,6 +4,7 @@ import com.OovEver.easyCrawle.Config.Config;
 import com.OovEver.easyCrawle.Engine.Elves;
 import com.OovEver.easyCrawle.Spider.Spider;
 import com.OovEver.easyCrawle.pipeline.Pipeline;
+import com.OovEver.easyCrawle.request.Request;
 import com.OovEver.easyCrawle.response.Response;
 import com.OovEver.easyCrawle.response.Result;
 import org.jsoup.nodes.Element;
@@ -20,12 +21,6 @@ import java.util.stream.Collectors;
 public class News163Example{
     static class News163Spider extends Spider {
         public News163Spider(String name) {
-//            Pipeline<String> pipeline=new Pipeline<String>() {
-//                @Override
-//                public void process(String item, Request request) {
-//
-//                }
-//            }
             super(name);
             this.startUrls(
                     "http://news.163.com/special/0001386F/rank_news.html",//新闻
@@ -37,8 +32,10 @@ public class News163Example{
         }
 
         public void onStart(Config config) {
-            this.addPipeline((Pipeline<List<String>>) (item, request) ->
-                    item.forEach(System.out::println));
+            //每个request一个pipeline
+            this.addPipeline((Pipeline<List<String>>) (item, request) ->{
+                    item.forEach(System.out::println);
+            });
             this.getRequests().forEach(request -> {
                 request.charset("text/html; charset=gb2312");
                 request.charset("gb2312");

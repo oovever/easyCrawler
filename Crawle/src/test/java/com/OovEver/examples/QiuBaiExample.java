@@ -35,6 +35,7 @@ public class QiuBaiExample {
                 items.forEach(item-> System.out.println("\r\n"+item+"\r\n============end=============="));
             });
         }
+        //解析器
         @Override
         public Result parse(Response response) {
             Result result = new Result();

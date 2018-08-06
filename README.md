@@ -49,12 +49,102 @@
       *  ElvesUtils 线程调度时间等工具
       * NamedThreadFactory 线程名称命名 
 
-   
-
 * 环境要求
 
   * JDK1.8
 
   * lombok插件
 
-    
+* 执行流程
+
+   1. 设置爬虫名称
+   2. 添加爬虫链接
+   3. 注册爬虫事件
+   4. 爬虫引擎初始化（线程池配置、调度器、配置等设置）
+   5. 激活爬虫事件
+   6. 从引擎中抽取请求的URL
+   7. 将请求放到线程池中执行Downloader下载
+   8. 下载器负责下载Scrapy Engine(引擎)发送的所有Requests请求，并将其获取到的Responses交还给Scrapy Engine(引擎)，由引擎交给Spiders来处理
+   9. 解析Response
+   10. 将解析出的数据放到pipeline中进行处理，比如去重，持久化存储（存数据库，写入文件，总之就是保存数据用的）
+   11. 将解析出来的URL，放到Scheduler调度器中，等待下一次调度
+     <img src="docs/static/process.jpg" width="120%"/>
+
+   * 使用说明
+
+     1. 继承Spider类
+     2. 添加要爬取的链接
+     3. 在OnStart（爬虫引擎初始化时会执行）中添加Pipeline处理
+     4. 实现Pipeline中的Parse的方法解析爬虫数据，支持CSS与XPath两种方式
+     5. 添加还需处理的请求
+     6. Elves.Elves(Spider对象，Config设置爬虫间隔).start()
+
+     ```java
+     package com.OovEver.examples;
+     
+     import com.OovEver.easyCrawle.Config.Config;
+     import com.OovEver.easyCrawle.Engine.Elves;
+     import com.OovEver.easyCrawle.Spider.Spider;
+     import com.OovEver.easyCrawle.pipeline.Pipeline;
+     import com.OovEver.easyCrawle.request.Request;
+     import com.OovEver.easyCrawle.response.Response;
+     import com.OovEver.easyCrawle.response.Result;
+     import lombok.extern.slf4j.Slf4j;
+     import org.jsoup.nodes.Element;
+     
+     import java.util.List;
+     import java.util.Optional;
+     import java.util.stream.Collectors;
+     
+     /**
+      * 糗百测试
+      * @author OovEver
+      * 2018/5/24 20:20
+      */
+     public class QiuBaiExample {
+         private static final String BASE_URL = "https://www.qiushibaike.com";
+     	//继承Spider类
+         @Slf4j
+         static class QiubaiSpider extends Spider {
+             public QiubaiSpider(String name) {
+                 super(name);
+                 //添加要爬取的链接
+                 this.startUrls(BASE_URL);
+             }
+             //在OnStart（爬虫引擎初始化时会执行）中添加Pipeline处理
+             @Override
+             public void onStart(Config config) {
+                 this.addPipeline((Pipeline<List<String>>)(items,request)->{
+                     log.info("爬虫开始了");
+                     items.forEach(item-> System.out.println("\r\n"+item+"\r\n============end=============="));
+                 });
+             }
+             //解析器
+             @Override
+             public Result parse(Response response) {
+                 Result result = new Result();
+                 //实现Pipeline中的Parse的方法解析爬虫数据，支持CSS与XPath两种方式
+                 List<String> items = response.body().css("#content-left div.article div.content span").stream()
+                         .map(element -> element.text().replace("<br/>", "\r\n"))
+                         .collect(Collectors.toList());
+                 result.setItem(items);
+     //            下一页
+                 Optional<Element> nextEl = response.body().css("ul.pagination a span").stream().filter(element -> "下一页".equals(element.text())).map(Element::parent).findFirst();
+                 if (nextEl.isPresent()) {
+                     String          nextPageUrl = BASE_URL + nextEl.get().attr("href");
+                     Request<String> nextReq     = QiubaiSpider.this.makeRequest(nextPageUrl, this::parse);
+                     //添加还需处理的请求
+                     result.addRequest(nextReq);
+                 }
+                 return result;
+             }
+         }
+         public static void main(String[] args) {
+             QiubaiSpider qiubaiSpider = new QiubaiSpider("糗事百科");
+             Elves.Elves(qiubaiSpider, Config.config().setDelay(2000)).start();
+         }
+     }
+     
+     ```
+
+     

@@ -101,6 +101,7 @@ public class ElvesEngine {
             Response response = scheduler.nextResponse();
             Parser   parser   = response.getRequest().getParser();
             if (null != parser) {
+                //解析response响应
                 Result<?> result = parser.parse(response);
                 List<Request> requests = result.getRequests();
                 if (!ElvesUtils.isEmpty(requests)) {
