@@ -31,13 +31,13 @@ public class Downloader implements Runnable {
         log.debug("[{}] 开始请求", request.getUrl());
 //        自己的http工具
         InputStream crawleRelult = null;
-        io.github.biezhi.request.Request httpReq = null;
+        Request httpReq = null;
         if ("get".equalsIgnoreCase(request.getMethod())) {
             httpReq = Request.get(request.getUrl());
             crawleRelult = HttpUtil.get(request.getUrl()).execute().getInputStream();
         }
         if ("post".equalsIgnoreCase(request.getMethod())) {
-            httpReq = io.github.biezhi.request.Request.post(request.getUrl());
+            httpReq = Request.post(request.getUrl());
             crawleRelult = HttpUtil.post(request.getUrl()).execute().getInputStream();
         }
 //        使用别人的http工具
