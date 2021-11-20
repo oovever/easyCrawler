@@ -1,11 +1,11 @@
 package com.OovEver.easyCrawle.download;
 
-import com.OovEver.easyCrawle.request.Request;
 import com.OovEver.easyCrawle.response.Response;
 import com.OovEver.easyCrawle.scheduler.Scheduler;
 import com.Oovever.easyHttp.util.HttpUtil;
 import com.Oovever.esayTool.io.file.FileWriter;
 import com.sun.deploy.net.HttpUtils;
+import io.github.biezhi.request.Request;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.http.client.methods.HttpRequestBase;
 
@@ -19,9 +19,9 @@ import java.io.*;
 @Slf4j
 public class Downloader implements Runnable {
     private final Scheduler scheduler;
-    private final Request request;
+    private final com.OovEver.easyCrawle.request.Request request;
 
-    public Downloader(Scheduler scheduler, Request request) {
+    public Downloader(Scheduler scheduler, com.OovEver.easyCrawle.request.Request request) {
         this.scheduler = scheduler;
         this.request = request;
     }
@@ -33,7 +33,7 @@ public class Downloader implements Runnable {
         InputStream crawleRelult = null;
         io.github.biezhi.request.Request httpReq = null;
         if ("get".equalsIgnoreCase(request.getMethod())) {
-            httpReq = io.github.biezhi.request.Request.get(request.getUrl());
+            httpReq = Request.get(request.getUrl());
             crawleRelult = HttpUtil.get(request.getUrl()).execute().getInputStream();
         }
         if ("post".equalsIgnoreCase(request.getMethod())) {
