@@ -37,8 +37,8 @@ public class News163Example{
                     item.forEach(System.out::println);
             });
             this.getRequests().forEach(request -> {
-                request.charset("text/html; charset=gb2312");
-                request.charset("gb2312");
+                request.charset("text/html; charset=utf-8");
+                request.charset("utf-8");
             });
         }
         @Override
